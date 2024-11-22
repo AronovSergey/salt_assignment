@@ -1,0 +1,36 @@
+@import '../../App.scss';
+
+.header {
+  display: flex;
+  padding: $default-padding;
+
+  .previous_button {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    padding: 2px 0px;
+  }
+
+  .breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .breadcrumb {
+      color: $primary-color;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .arrow_right {
+      width: 13px;
+      height: 13px;
+    }
+  }
+}

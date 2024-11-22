@@ -1,0 +1,19 @@
+@import '../../App.scss';
+
+.tabs {
+  display: flex;
+  gap: 20px;
+
+  .tab {
+    display: flex;
+    cursor: pointer;
+    padding: $default-padding;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .active {
+    color: $primary-color;
+    border-bottom: 2px solid $primary-color;
+  }
+}
