@@ -26,6 +26,6 @@ export const router = createBrowserRouter([
   },
   {
     path: '/',
-    element: <Navigate to="/apis" />,
+    element: <Navigate to="/route-details/1" />,
   },
 ]);
